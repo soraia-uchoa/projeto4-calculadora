@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --light-color: #e9eae8;
+    --dark-color:  #24242c;
+    --screen-color: #5f5f60;
+    --btn-light-color: #4bfb93;
+}
+.all-dark{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: center;
+    height: 100dvh;
+    width: 100dvw;
+    background-color: var(--dark-color);
+}
+.all-light{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: center;
+    height: 100dvh;
+    width: 100dvw;
+    background-color: var(--light-color);
+}
+.light{
+    background-color: var(--light-color);
+}
+.dark{
+    background-color: var(--dark-color);
+}
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    flex-flow: row wrap;
+    gap: 20px;
+    height: 411px;
+    width: 477px;
+}
+.calc-up{
+    display: flex;
+    justify-content: space-between;
+    width: 477px;
+}
+.calc-name-dark{
+    color: var(--light-color);
+    font-size: 26px;
+    font-family: 'inter', sans-serif;
+}
+.calc-name-light{
+    color: var(--dark-color);
+    font-size: 26px;
+    font-family: 'inter', sans-serif;
+}
+.theme-button-dark{
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    border: 1px solid var(--light-color);
+    border-radius: 4px;
+    padding: 3px 6px;
+    font-size: 10px;
+}
+.theme-button-light{
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    border: 1px solid var(--dark-color);
+    border-radius: 4px;
+    padding: 3px 6px;
+    font-size: 10px;
+}
+.screen-calc-dark{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    padding: 2px 4px;
+    height: 41px;
+    width: 477px;
+    border: 1px solid var(--screen-color);
+    border-radius: 10px;
+    background-color: var(--dark-color);
+}
+.screen-calc-light{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    padding: 2px 4px;
+    height: 41px;
+    width: 477px;
+    border: 1px solid var(--screen-color);
+    border-radius: 10px;
+    background-color: var(--light-color);
+}
+.calc-dark{
+    color: var(--light-color);
+    font-size: 22px;
+}
+.calc-light{
+    color: var(--dark-color);
+    font-size: 22px;
+}
+.keyboard{
+    display: grid;
+    align-items: center;
+    height: 280px;      
+    width: 477px;
+}
+.line-one{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.line-two{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.line-three{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.line-four{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.line-five{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.button{
+    padding: 11px 50px;
+    background-color: var(--btn-light-color);
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.screen-result-dark{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    padding: 2px 4px;
+    height: 41px;
+    width: 477px;
+    border: 1px solid var(--screen-color);
+    border-radius: 10px;
+    background-color: var(--dark-color);
+}
+.screen-result-light{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+    padding: 2px 4px;
+    height: 41px;
+    width: 477px;
+    border: 1px solid var(--screen-color);
+    border-radius: 10px;
+    background-color: var(--light-color);
+}
+.result-dark{
+    color: var(--light-color);
+    font-size: 22px;
+}
+.result-light{
+    color: var(--dark-color);
+    font-size: 22px;
+}
